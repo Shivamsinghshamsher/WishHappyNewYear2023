@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@800&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url('https://npr.brightspotcdn.com/dims4/default/9bb317d/2147483647/strip/true/crop/800x534+0+0/resize/1760x1174!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwesa%2Ffiles%2F201606%2Ffireworks.gif'); */
+
+}
+
+.myname {
+    font-size: 450%;
+    margin-top: 3rem;
+    color: red;
+    text-align: center;
+}
+
+h1 {
+    /* display: block; */
+    /* text-align: center; */
+    font-size: 550%;
+    align-items: center;
+    color: red;
+    margin: 0 2.3rem;
+    /* font-family: 'Shrikhand', cursive; */
+    /* font-family: 'Fredoka One', cursive; */
+    /* font-family: 'Kavoon', cursive; */
+    /* font-family: 'Yatra One', cursive; */
+    font-family: 'Recursive', sans-serif;
+
+    /* font-family: 'Happy Monkey', cursive; */
+
+
+
+}
+
+.container {
+    /* width: 97vw; */
+    overflow: hidden;
+    height: 100vh;
+    background-size: 100vw;
+
+    background-repeat: no-repeat;
+    background-image: url('https://npr.brightspotcdn.com/dims4/default/9bb317d/2147483647/strip/true/crop/800x534+0+0/resize/1760x1174!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwesa%2Ffiles%2F201606%2Ffireworks.gif');
+}
+
+.wish {
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+    align-items: center;
+}
+
+.wish img {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 13px;
+}
+footer{
+    color: rgb(131, 217, 238);
+    text-align: center;
+    /* padding-bottom: 1.6rem; */
+    background-color: green;
+}
+
+@media only screen and (max-wiDth:600px) {
+    .myname {
+        font-size: 150%;
+        margin-top: 1rem;
+    }
+    .container{
+        height: 100vh;
+        background-size: 120vh;
+    }
+    .wish{
+        flex-direction: column;
+        margin: 2rem;
+    }
+    .wish img {
+        width: 8.5rem;
+        margin: 2rem 0 1rem 0;
+        height: 8.5rem;
+    }
+    h1{
+        font-size: 200%;
+        margin: 0px 5px;
+        color: red;
+        margin-bottom: -20px;
+
+    }
+    footer{
+        background-color: green;
+        margin-top: -8rem;
+    }
+
+}
