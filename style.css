@@ -76,14 +76,15 @@ footer{
     .myname {
         font-size: 150%;
         margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     .container{
         height: 100vh;
-        background-size: 120vh;
+        background-size: 150vh;
     }
     .wish{
         flex-direction: column;
-        margin: 2rem;
+        margin: 4rem 0;
     }
     .wish img {
         width: 8.5rem;
@@ -99,7 +100,6 @@ footer{
     }
     footer{
         background-color: green;
-        margin-top: -8rem;
+        /* margin-top: -3rem; */
     }
-
 }
